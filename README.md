@@ -9,5 +9,5 @@
 ## 配置环境
 |  框架/库名   | 版本  |
 |  ----  | ----  |
-| torch  | 单元格 |
+| <font color=red>torch</font>  | 单元格 |
 | tensorflow  | 单元格 |
