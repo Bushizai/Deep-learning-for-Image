@@ -14,6 +14,11 @@
 
 |  框架/库名   | 版本  |
 |  :----:  | :----: |
-|python|3.7/3.8|
-|torch| 1.12.0 + cu116|
+|python|3.7.15|
+|torch| 1.8.2 + cu111|
 |tensorflow| 单元格 |
+|tensorboard|2.20.1|
+|torchvision|0.9.2+cu111|
+
+## 数据集获取
+
