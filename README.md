@@ -1,5 +1,5 @@
 # 深度学习在图像处理中的应用(Pytorch\Tensorflow)
-## (一)前言
+## 前言
 **<table><tr>用途:本人学习历程记录</tr></table>**
 
 1) 介绍网络的结构与创新点:附`PPT文件`;
@@ -16,3 +16,8 @@
 |python|3.7/3.8|
 |torch| 1.12.0 + cu116|
 |tensorflow| 单元格 |
+
+## 参考和引用
+首先感谢各位大神的分享
+[霹雳吧啦Wz](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing)
+
