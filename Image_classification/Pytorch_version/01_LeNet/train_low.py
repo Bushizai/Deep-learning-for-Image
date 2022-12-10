@@ -18,10 +18,10 @@ transform = transforms.Compose([transforms.ToTensor(),
 
 # ============================================= 【cifar10数据集下载与导入】 ============================================= #
 # 50000张训练图像
-trainset = torchvision.datasets.CIFAR10(root='E:/Deep_learning/My_code/Image_classification/Pytorch_version/01_LeNet/data',
+trainset = torchvision.datasets.CIFAR10(root='E:/Deep_learning/My_code/Dataset',
                                         download=True, train=True, transform=transform)
 # 10000张测试图像
-testset = torchvision.datasets.CIFAR10(root='E:/Deep_learning/My_code/Image_classification/Pytorch_version/01_LeNet/data',
+testset = torchvision.datasets.CIFAR10(root='E:/Deep_learning/My_code/Dataset',
                                        download=False, train=False, transform=transform)
 
 # ========================================== 【数据分batch_size\num_workers】 ========================================== #

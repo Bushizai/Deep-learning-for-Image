@@ -17,15 +17,15 @@ transform = transforms.Compose([transforms.ToTensor(),
                                 transforms.Normalize((0.5, 0.5, 0.5),(0.5, 0.5, 0.5))])
 
 # ============================================== 【cifar10数据集下载与导入】 ============================================= #
-trainset = torchvision.datasets.CIFAR10(root="E:/Deep_learning/My_code/Image_classification/Pytorch_version/01_LeNet/data",
+trainset = torchvision.datasets.CIFAR10(root="E:/Deep_learning/My_code/Dataset",
                                         download=True,train=True, transform=transform)
-testset = torchvision.datasets.CIFAR10(root="E:/Deep_learning/My_code/Image_classification/Pytorch_version/01_LeNet/data",
+testset = torchvision.datasets.CIFAR10(root="E:/Deep_learning/My_code/Dataset",
                                         download=False,train=False, transform=transform)
 
 # ==================================================== 【加载数据集】 =================================================== #
 trainloader = torch.utils.data.DataLoader(trainset,batch_size=32,
                                            shuffle=True,num_workers=0)
-testloader = torch.utils.data.DataLoader(testset,batch_size=4,
+testloader = torch.utils.data.DataLoader(testset,batch_size=10000,
                                          shuffle=False,num_workers=0)
 
 # ==================================================== 【数据集种类】 =================================================== #
